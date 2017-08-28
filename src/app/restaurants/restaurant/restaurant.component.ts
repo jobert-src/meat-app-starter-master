@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import {Restaurant} from './restaurant.model';
+import {RestaurantModel} from './restaurant.model';
 
 @Component({
   selector: 'mt-restaurant',
@@ -9,8 +9,8 @@ import {Restaurant} from './restaurant.model';
 
 export class RestaurantComponent implements OnInit {
 
-  @Input() restaurant: Restaurant;
-  
+  @Input() restaurant: RestaurantModel;
+
   constructor() { }
 
   ngOnInit() {

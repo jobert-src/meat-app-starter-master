@@ -1,5 +1,5 @@
 {
-  "restaurants": [
+  "restaurantsSrvc": [
     {
       "id": "bread-bakery",
       "name": "Bread & Bakery",
